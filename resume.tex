@@ -7,7 +7,7 @@
 
 \documentclass[letterpaper,11pt]{article}
 
-\usepackage{microtype}
+% \usepackage{microtype}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -122,9 +122,10 @@
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \setlength{\footskip}{4.1pt} % Set footskip
 
+% \setlength{\footskip}{4.1pt} % Set footskip
 \begin{document}
+% \begin{sloppypar}
 
 %----------HEADING----------
 % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
@@ -147,18 +148,16 @@
 %-----------EDUCATION-----------
 \section{Experience}
   \resumeSubHeadingListStart
-    
     \resumeSubheading
       {\href{https://www.kochartech.com/}{Kochar Infotech Limited}}{June 2023 - Jan 2024}
       {It Intern}{Amritsar, Punjab, India}
       % \vspace{-8pt}
       \resumeItemListStart
         \resumeItem{Implemented bug fixes and UI improvements to optimize the functionality and user experience of a Knowledge Management Platform built using Angular, enhancing overall platform performance and usability}
-        \resumeItem{Developed proof-of-concepts (POCs) for a \textbf{Decision Tree Module} within the Knowledge Management Platform, leveraging React-Flow and GoJS integrated into Angular, demonstrating innovative approaches to visual data management and hierarchy}
-        \resumeItem{Authored comprehensive UI functionality documents, detailing user interface workflows and interactions, enabling clear communication of design intent and technical implementation to both developers and stakeholders}
-        \resumeItem{Created \textbf{translation documents} to support seamless localization across multiple languages, improving efficiency and consistency in content management}
-      \resumeItemListEnd
-    
+        \resumeItem{Developed proof-of-concepts (POCs) for a comprehensive multi-edge, multi-direction graph and storage system \textbf{Decision Tree Module} within the Knowledge Management Platform, leveraging React-Flow and GoJS integrated into React and Angular, demonstrating innovative approaches to visual data management and hierarchy}
+        \resumeItem{Used Tree Structure Layouting Libraries like Dagre , D3-Hierarchy}
+        \resumeItem{Created UI functionality documents, detailing user interface workflows and interactions, \textbf{translation documents} to support seamless localization across multiple languages, improving efficiency and consistency in content management}
+      \resumeItemListEnd   
   \resumeSubHeadingListEnd
 
 \section{Education}
@@ -186,26 +185,23 @@
         \resumeProjectHeading
             {\textbf{Build-Mate} $|$ \emph{React-Vite, JS, socket.io}  $|$ \href{https://build-mate.in/}{build-mate.in}}{April 2024 - Current}
             \resumeItemListStart
-                \resumeItem{Developed a \textbf{Project and Task Management} App utilizing React, Redux, and Socket.io, included real-time document sharing and collaboration for enhanced productivity.}
-                \resumeItem{Implemented a responsive \textbf{landing page} to provide an engaging user experience, ensuring compatibility across various devices and screen sizes for organic flow}
-                \resumeItem{Integrated filtering and search mechanisms, allowing users to efficiently navigate and locate specific projects and tasks, improving usability and workflow management.}
-                \resumeItem{Designed a multi-tiered architecture with staff, client, and owner roles for a \textbf{B2B application}, ensuring tailored access and functionality for different user types.}
-                \resumeItem{Employed best practices in state management using Redux, enhancing application performance and enabling real-time updates through Socket.io for seamless communication and collaboration.}
+              \resumeItem{Developed a \textbf{Project and Task Management} App using React, Redux, and Socket.io, featuring real-time document sharing, collaboration, and role-based access for staff, clients, and owners in a \textbf{B2B} setting.}
+              \resumeItem{Created a responsive \textbf{landing page} and integrated filtering and search mechanisms, improving user experience, usability, and workflow management across devices.}
+              \resumeItem{Optimized state management with Redux, enhancing performance and enabling real-time updates through Socket.io for seamless communication and collaboration.}
             \resumeItemListEnd
+        % \resumeProjectHeading
+        %     {\textbf{Decision Tree Module} $|$ \emph{Angular + GoJS, React + React-Flow}}{June 2023 - Jan 2024}
+        %     \resumeItemListStart
+        %         \resumeItem{Developed a comprehensive multi-edge, multi-direction graph creation, updation, and storage system using GoJS, Angular (V1) and React-Flow, React - Vite (V2), used Tree Structure Layouting Libraries like Dagre , D3-Hierarchy.}
+        %         \resumeItem{Enabled dynamic and scalable \textbf{decision tree} structures with intuitive UI interactions and persistent data handling.}
+        %     \resumeItemListEnd
         \resumeProjectHeading
-            {\textbf{Decision Tree Module} $|$ \emph{Angular + GoJS, React + React-Flow}}{June 2023 - Jan 2024}
+            {\textbf{Personal Projects} $|$ \emph{Python, Django, Flutter, JS/TS} $|$ \href{https://github.com/Bwarlock?tab=repositories}{GitHub}}{-}
             \resumeItemListStart
-                \resumeItem{Developed a comprehensive multi-edge, multi-direction graph creation, updation, and storage system using GoJS, Angular (V1) and React-Flow, React - Vite (V2), used Tree Structure Layouting Libraries like Dagre , D3-Hierarchy.}
-                \resumeItem{Enabled dynamic and scalable \textbf{decision tree} structures with intuitive UI interactions and persistent data handling.}
-                \resumeItem{Project completed during IT internship at Kochartech.}
-            \resumeItemListEnd
-        \resumeProjectHeading
-            {\textbf{Personal Projects} $|$ \emph{Python, Django, Flutter, JS/TS} $|$ \href{https://github.com/Bwarlock?tab=repositories}{GitHub}}
-            \resumeItemListStart
-                \resumeItem{\textbf{YoloShoppe} - Ecommerce Website with Flipkart dataset using Python Django , Stripe - BCA 3rd Year Project}
-                \resumeItem{\textbf{DealWare} - Android App on ITAD API using Flutter - User Interface for itad api for game filtering}
-                \resumeItem{\textbf{React-Boilerplate-Template-API} - React Template using Vite Ts Node - Basic Api architecture for personal react projects with 3 tiers (Axios Api > Functional Hook > Ui)}
-                \resumeItem{\textbf{Chat-Guide} - Chat App using React-Native and Express - Basic Chat App with Friend Requests , Messaging and Images with real time communication using socket.io}
+                \resumeItem{\textbf{YoloShoppe} : Ecommerce Website with Flipkart dataset using Python Django , Stripe - BCA 3rd Year Project}
+                % \resumeItem{\textbf{DealWare} : Android App on ITAD API using Flutter - User Interface for itad api for game filtering}
+                \resumeItem{\textbf{React-Boilerplate-Template-API} : React Template using Vite Ts Node - Basic Api architecture for personal react projects with 3 tiers (Axios Api - Functional Hook - Ui)}
+                \resumeItem{\textbf{Chat-Guide} : Chat App using React-Native and Express - Basic Chat App with Friend Requests , Messaging and Images with real time communication using socket.io}
             \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -216,7 +212,7 @@
     {\item{
      \textbf{Languages}{: C++, Java, Python, JavaScript (TS/JS), SQL} \\
      \vspace{1pt}
-     \textbf{Frameworks \& Libraries:}{: Angular, Django, Flutter, React, React-Native, Redux, React-Flow, GoJS, Pandas, Scikit-Learn} \\
+     \textbf{Frameworks \& Libraries:}{: Angular, Django, Flutter, React, React-Native, Redux, React-Flow, GoJS, Scikit-Learn} \\
      \vspace{1pt}
      \textbf{Developer Tools}{: AHK, Postman, MySQL, MongoDB, Unity Engine, Android Studio} \\
      \vspace{1pt}
@@ -228,16 +224,14 @@
 
 
 %-----------INVOLVEMENT---------------
-\section{CERTIFICATIONS \& EXTRA-CURRICULAR}
+\section{Certification \& Extra-Curricular}
 
 \begin{itemize}[leftmargin=0.2in]
-  \achievementItem{\textbf{1st} - \href{https://www.linkedin.com/events/skillsprintshackathon-sparkbyst7186758085367980032/}{SkillSprints Hackathon} (April 2024): Developed a fully functional MVP for a Project/Task management application using React, Axios, and Ant Design within 36 hours, demonstrating innovative problem-solving and rapid prototyping skills in a highly collaborative environment.}
-  \achievementItem{\textbf{4th Place} - \href{https://www.linkedin.com/events/skillsprintsv2-thehackathond-da7236585518937829377/}{SkillSprints V2} (September 2024): Developed a Menu Maker App using React Native + Expo and Axios with Gemini API, recognized as the only production-ready application in the competition. Demonstrated expertise in mobile app development, API integration, and delivering scalable, real-world solutions.}
-  \achievementItem{\href{https://www.freecodecamp.org/certification/Bhavjit/scientific-computing-with-python-v7}{Scientific Computing with Python} – FreeCodeCamp}
-  \achievementItem{\href{https://www.freecodecamp.org/certification/Bhavjit/front-end-development-libraries}{Front End Development Libraries – FreeCodeCamp}
-  \achievementItem{\href{https://www.freecodecamp.org/certification/Bhavjit/back-end-development-and-apis}{Backend Development and APIs – FreeCodeCamp}
-  \achievementItem{\href{https://www.cipherschools.com/certificate/preview?id=66fa72384c6c524771319fb4}{Competitive Coding using C++ – CipherSchools}
+  \achievementItem{\textbf{1st Place} - \href{https://www.linkedin.com/events/skillsprintshackathon-sparkbyst7186758085367980032/}{SkillSprints Hackathon} (April 2024): Developed a fully functional MVP for a Project/Task management application using React, Axios, and Ant Design within 36 hours, demonstrating innovative problem-solving and rapid prototyping skills in a highly collaborative environment.}
+  \achievementItem{\textbf{4th Place} - \href{https://www.linkedin.com/events/skillsprintsv2-thehackathond-da7236585518937829377/}{SkillSprints V2} (September 2024): Developed a Menu Maker App using React Native + Expo and Axios with Gemini API, recognized as the only production-ready application in the competition.}
+  \achievementItem{\href{https://www.freecodecamp.org/certification/Bhavjit/scientific-computing-with-python-v7}{Scientific Computing with Python} , \href{https://www.freecodecamp.org/certification/Bhavjit/front-end-development-libraries}{Front End Development Libraries} , \href{https://www.freecodecamp.org/certification/Bhavjit/back-end-development-and-apis}{Backend Development and APIs} – FreeCodeCamp}
+  % \achievementItem{\href{https://www.cipherschools.com/certificate/preview?id=66fa72384c6c524771319fb4}{Competitive Coding using C++} – CipherSchools}
 \end{itemize}
 
-
+% \end{sloppypar}
 \end{document}
