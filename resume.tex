@@ -62,8 +62,10 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{0pt}\scshape\raggedright\Large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+
+\titlespacing*{\section}{0pt}{16pt}{6pt}
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -144,93 +146,105 @@
     \vspace{-8pt}
 \end{center}
 
-
-%-----------EDUCATION-----------
-\section{Experience}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {\href{https://www.kochartech.com/}{Kochar Infotech Limited}}{June 2023 - Jan 2024}
-      {It Intern}{Amritsar, Punjab, India}
-      % \vspace{-8pt}
-      \resumeItemListStart
-        \resumeItem{Implemented bug fixes and UI improvements to optimize the functionality and user experience of a Knowledge Management Platform built using Angular, enhancing overall platform performance and usability}
-        \resumeItem{Developed proof-of-concepts (POCs) for a comprehensive multi-edge, multi-direction graph and storage system \textbf{Decision Tree Module} within the Knowledge Management Platform, leveraging React-Flow and GoJS integrated into React and Angular, demonstrating innovative approaches to visual data management and hierarchy}
-        \resumeItem{Used Tree Structure Layouting Libraries like Dagre , D3-Hierarchy}
-        \resumeItem{Created UI functionality documents, detailing user interface workflows and interactions, \textbf{translation documents} to support seamless localization across multiple languages, improving efficiency and consistency in content management}
-      \resumeItemListEnd   
-  \resumeSubHeadingListEnd
-
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Guru Nanak Dev University, Amritsar}{July '2020 -- June '2023 -- June '2025}
-      {Bachelor + Master of Computer Applications  - (CGPA : 8.74)}{Amritsar, Punjab India}
-    \resumeSubheading
-      {Shri Guru Harkrishan Sr Sec Public School, Amritsar}{April '2017 -- March '20}
-      {Secondary Education (10th, Score 92\%), Primary Education (+2, Score 98\%)}{Amritsar, Punjab India}
-  \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------
-\section{Projects}
-    \vspace{-2pt}
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-            {\textbf{Build-Mate} $|$ \emph{React-Vite, JS, socket.io}  $|$ \href{https://build-mate.in/}{build-mate.in}}{April 2024 - Current}
-            \resumeItemListStart
-                \resumeItem{Developed a \textbf{Project and Task Management} App using React, Redux, and Socket.io, featuring real-time document sharing, collaboration, and role-based access for staff, clients, and owners in a \textbf{B2B} setting.}
-                \resumeItem{Created a responsive \textbf{landing page} and integrated filtering and search mechanisms, improving user experience, usability, and workflow management across devices.}
-                \resumeItem{Optimized state management with Redux, enhancing performance and enabling real-time updates through Socket.io for seamless communication and collaboration.}
-            \resumeItemListEnd
-        \resumeProjectHeading
-            {\textbf{Make-My-Menu} $|$ \emph{Expo, TS, Gemini-API, Handlebars}  $|$ \href{https://www.makemymenu.online/}{makemymenu.online}}{Sept 2024 - Current}
-            \resumeItemListStart
-                \resumeItem{Developed a Restaurant Menu Maker App using React Native Expo, providing an intuitive interface for generating customizable restaurant menus, integrated with \textbf{google gemini} api.}
-                \resumeItem{Oversaw the functionalities and \textbf{dynamic rendering} of the menu, ensuring that menu items were displayed accurately and updated in real time, resulting in improved performance and usability.}
-                \resumeItem{Employed best practices in mobile app development, including efficient state management and responsive design.}
-            \resumeItemListEnd
-        % \resumeProjectHeading
-        %     {\textbf{Decision Tree Module} $|$ \emph{Angular + GoJS, React + React-Flow}}{June 2023 - Jan 2024}
-        %     \resumeItemListStart
-        %         \resumeItem{Developed a comprehensive multi-edge, multi-direction graph creation, updation, and storage system using GoJS, Angular (V1) and React-Flow, React - Vite (V2), used Tree Structure Layouting Libraries like Dagre , D3-Hierarchy.}
-        %         \resumeItem{Enabled dynamic and scalable \textbf{decision tree} structures with intuitive UI interactions and persistent data handling.}
-        %     \resumeItemListEnd
-        \resumeProjectHeading
-            {\textbf{Personal Projects} $|$ \emph{Python, Django, Flutter, JS/TS} $|$ \href{https://github.com/Bwarlock?tab=repositories}{GitHub}}{-}
-            \resumeItemListStart
-                \resumeItem{\textbf{YoloShoppe} : Ecommerce Website with Flipkart dataset using Python Django , Stripe - BCA 3rd Year Project}
-                % \resumeItem{\textbf{DealWare} : Android App on ITAD API using Flutter - User Interface for itad api for game filtering}
-                \resumeItem{\textbf{React-Boilerplate-Template-API} : Npm package for a React Template created using Vite Ts Node - Basic Api architecture for personal react projects with 3 tiers (Axios Api - Functional Hook - Ui)}
-                \resumeItem{\textbf{Chat-Guide} : Chat App using React-Native and Express - Basic Chat App with Friend Requests , Messaging and Images with real time communication using socket.io}
-            \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
-%
 %-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+\section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     {\item{
-     \textbf{Languages}{: C++, Java, Python, JavaScript (TS/JS), SQL} \\
+     \textbf{Languages:}{ C++, Java, Python, JavaScript (TS/JS), SQL} \\
      \vspace{1pt}
-     \textbf{Frameworks \& Libraries:}{: Angular, Django, Flutter, React, React-Native, Redux, React-Flow, GoJS, Scikit-Learn} \\
+     \textbf{Libraries \& Tools:}{ React, React-Native, Redux, Angular, Django, Flutter, React-Flow, GoJS, AHK, Postman, MySQL, MongoDB, Unity Engine, Android Studio, Html, Stylesheets (CSS/SCSS), DSA, Git (Github/Gitlab)} \\
      \vspace{1pt}
-     \textbf{Developer Tools}{: AHK, Postman, MySQL, MongoDB, Unity Engine, Android Studio} \\
-     \vspace{1pt}
-     \textbf{Extra Skills}{: Html, Stylesheets (CSS/SCSS), DSA, Git (Github/Gitlab), Problem Solving} \\
+     \textbf{Soft Skills:}{ Problem Solving, Teamwork, Time Management} \\
     }}
  \end{itemize}
  \vspace{-16pt}
 
 
+%-----------Experience-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.kochartech.com/}{Kochar Infotech Limited}}{Jun 2023 - Jan 2024}
+      {IT INTERN}{Amritsar, Punjab, India}
+      % \vspace{-8pt}
+      \resumeItemListStart
+        \resumeItem{Optimized the functionality and user experience of a Knowledge Management Platform built with Angular by fixing 50+ bugs and implementing UI improvements, leading to a 20\% increase in platform performance.}
+        \resumeItem{Developed proof-of-concepts (POCs) for a \textbf{Decision Tree Module} using React-Flow and GoJS, enabling dynamic multi-edge, multi-direction graph visualization for over 1,000 data nodes within React and Angular environments.}
+        \resumeItem{Designed and documented UI workflows, interaction guidelines, and localization materials supporting seamless content management across 5+ languages, enhancing translation accuracy by 30\% for global users.}
+      \resumeItemListEnd   
+  \resumeSubHeadingListEnd
 
-%-----------INVOLVEMENT---------------
-\section{Certification \& Extra-Curricular}
-\begin{itemize}[leftmargin=0.2in]
-  \achievementItem{\textbf{1st Place} - \href{https://www.linkedin.com/events/skillsprintshackathon-sparkbyst7186758085367980032/}{SkillSprints Hackathon} (April 2024): Developed a fully functional MVP for a Project/Task management application using React, Axios, and Ant Design within 36 hours, demonstrating innovative problem-solving and rapid prototyping skills in a highly collaborative environment.}
-  \achievementItem{\textbf{4th Place} - \href{https://www.linkedin.com/events/skillsprintsv2-thehackathond-da7236585518937829377/}{SkillSprints V2} (September 2024): Developed a Menu Maker App using React Native + Expo and Axios with Gemini API, recognized as the only production-ready application in the competition.}
-  \achievementItem{\href{https://www.freecodecamp.org/certification/Bhavjit/scientific-computing-with-python-v7}{Scientific Computing with Python} , \href{https://www.freecodecamp.org/certification/Bhavjit/front-end-development-libraries}{Front End Development Libraries} , \href{https://www.freecodecamp.org/certification/Bhavjit/back-end-development-and-apis}{Backend Development and APIs} – FreeCodeCamp}
-  % \achievementItem{\href{https://www.cipherschools.com/certificate/preview?id=66fa72384c6c524771319fb4}{Competitive Coding using C++} – CipherSchools}
-\end{itemize}
 
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \vspace{-6pt}
+        \resumeProjectHeading
+            {\textbf{Build-Mate} $|$ \emph{React Vite, Redux, JS, Socket.io}  $|$ \href{https://build-mate.in/}{build-mate.in}}{Apr 2024 - Sep 2024}
+            \resumeItemListStart
+                \resumeItem{Developed Build-mate, a \textbf{B2B task and project management app} designed for construction workers, simplifying task assignment, project creation by clients, and communication with easy-to-use commenting features. The app improved workflow efficiency by 40\% through intuitive table, kanban, and calendar views.}
+                \resumeItem{Created a responsive landing page, driving a 25\% increase in organic traffic within 3 months.}
+                \resumeItem{Designed a seamless project oversight tool that incorporated search and filter features, improving the tracking of 200+ subtasks; feedback showed a significant increase in satisfaction among non-technical users.}
+                \resumeItem{Integrated search and filter options, along with issue tracking and subtask management, to streamline project oversight and enhance usability for non-technical users.}
+            \resumeItemListEnd
+        \resumeProjectHeading
+            {\textbf{Make-My-Menu} $|$ \emph{React-Native Expo, TS, Gemini-API, Handlebars}  $|$ \href{https://www.makemymenu.online/}{makemymenu.online}}{Sep 2024 - Oct 2024}
+            \resumeItemListStart
+                \resumeItem{Developed Make My Menu, an app for creating dynamic, editable online restaurant menus, leveraging React Native Expo and Google Gemini API to scan and categorize menu items, reducing manual entry by 30\%.}
+                \resumeItem{Implemented real-time menu updates and optimized performance by 20\%, providing restaurants with personalized subdomains (e.g., pizzeria.makemymenu.online) for easy future QR code integration.}
+            \resumeItemListEnd
+      \resumeProjectHeading
+            {\textbf{React-Boilerplate-Template-API} $|$ \emph{Vite, Redux, Storybook} $|$ \href{https://www.npmjs.com/package/create-react-boilerplate-template-api}{npmjs.com/react-boilerplate-template-api}}{Sep 2024}
+            \resumeItemListStart
+                \resumeItem{Created an npm package for a Vite React template with a 3-tier API architecture, redux-persist, and storybook, cutting project setup time by 50\%.}
+            \resumeItemListEnd
+        % \resumeProjectHeading
+        %     {\textbf{Chat-Guide} $|$ \emph{React-Native Expo, Socket.io} $|$ \href{https://github.com/Bwarlock/chat-guide-native}{github.com/Bwarlock/chat-guide-native}}{Aug 2024 - Sep 2024}
+        %     \resumeItemListStart
+        %         \resumeItem{Engineered a real-time chat app using React-Native and Express, with features like friend requests, messaging, and image sharing, powered by Socket.io for real-time communication.}
+        %     \resumeItemListEnd
+        \resumeProjectHeading
+            {\textbf{YoloShoppe} $|$ \emph{Python, Django, Stripe} $|$ \href{https://github.com/Bwarlock/yoloshoppe}{github.com/Bwarlock/yoloshoppe}}{Jan 2023 - Jun 2023}
+            \resumeItemListStart
+                \resumeItem{Built an eCommerce website with Python Django using the Flipkart dataset and integrated Stripe for payments.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%-----------Education-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Guru Nanak Dev University, Amritsar}{Jul 2020 - Jun 2025}
+      {Master of Computer Applications (CGPA : 8.74)}{Amritsar, Punjab, India}
+    \resumeSubheading
+      {Shri Guru Harkrishan Sr Sec Public School, Amritsar}{Apr 2017 - Mar 2020}
+      {Secondary Education (10th, Score 92\%), Primary Education (12th, Score 98\%)}{Amritsar, Punjab, India}
+  \resumeSubHeadingListEnd
+
+%-----------Certification---------------
+\section{Certification \& Achievements}
+    \begin{itemize}[leftmargin=0.2in]
+      \achievementItem{\textbf{1st Place} in \href{https://www.linkedin.com/events/skillsprintshackathon-sparkbyst7186758085367980032/}{SkillSprints Hackathon (Apr 2024)}: Collaboratively Built an MVP for a project management app in 36 hours.}
+      \achievementItem{\textbf{4th Place} in \href{https://www.linkedin.com/events/skillsprintsv2-thehackathond-da7236585518937829377/}{SkillSprints V2 (Sep 2024)}: Contributed to the development of a Menu Maker App, recognized as the only production-ready app.}
+      % \achievementItem{\textbf{3rd Place} in SQL Challenge (Apr 2024) organized by the Department of Computer Science, GNDU}
+      % \achievementItem{\textbf{2nd Place} in DSA Challenge (Sep 2024) organized by the Department of Computer Science, GNDU}
+      \achievementItem{\textbf{Certifications}: \href{https://www.freecodecamp.org/certification/Bhavjit/scientific-computing-with-python-v7}{Computing With Python} , \href{https://www.freecodecamp.org/certification/Bhavjit/front-end-development-libraries}{Front End Development} , \href{https://www.freecodecamp.org/certification/Bhavjit/back-end-development-and-apis}{Backend Development} – FreeCodeCamp}
+      
+    \end{itemize}
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}} % Horizontal line
+\vspace{-10pt}
+% \vspace{0.3cm}
+
+\noindent I hereby certify that the information provided above is true and accurate to the best of my knowledge.
+
+\vspace{4pt}
+% \vspace{0.5cm}
+
+\noindent \textbf{Bhavjit Singh Kesar} % Name as signature
 % \end{sloppypar}
 \end{document}
